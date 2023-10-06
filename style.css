@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p1 {
+    margin: 0;
+    padding-left: 10%;
+    color: ghostwhite;
+    background-color: red;
+    font-size: xx-large;
+}
