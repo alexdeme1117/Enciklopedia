@@ -7,9 +7,16 @@ body {
     background-size: cover;
 }
 #p1 {
-    margin: 0;
-    padding-left: 10%;
     color: ghostwhite;
-    background-color: red;
     font-size: xx-large;
+}
+#p2 {
+    display: none;
+    opacity: 0.7;
+}
+#p1, #p2 {
+    margin: 0;
+    background-color: red;
+    padding-left: 2%;
+    width: 20%;
 }
