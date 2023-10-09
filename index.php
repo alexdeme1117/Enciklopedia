@@ -13,14 +13,15 @@
     <body>
     <?php
     $file = fopen("./wiki.txt", "r") or die("ERROR!");
+    $sec = 1;
     
-    while(!feof($file)) { 
+    while(!feof($file)) {
         $line = fgets($file);
 
-        if($line == "") {
-            $sec += 1;
-        } else {
+        if($line !== "\n") {
             echo "<p ID='p" . $sec . "'>" . $line . "</p>";
+        } else {
+            $sec += 1;
         }
     }
     
