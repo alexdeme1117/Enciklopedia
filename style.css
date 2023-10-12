@@ -2,7 +2,7 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
-    background: url("./asdasdasd.jpg");
+    background: url("./bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,5 +18,4 @@ body {
     margin: 0;
     background-color: red;
     padding-left: 2%;
-    width: 100%;
 }
