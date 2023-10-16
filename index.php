@@ -11,15 +11,20 @@
         <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     </head>
     <body>
+    <p id="p1">A nagy szabad Enciklopédija</p>
     <?php
     $file = fopen("./wiki.txt", "r") or die("ERROR!");
-    $sec = 1;
+    $sec = 2;
     
     while(!feof($file)) {
         $line = fgets($file);
 
         if($line !== "\n") {
-            echo "<p ID='p" . $sec . "'>" . $line . "</p>";
+	    if ($sec % 2 == 0) {
+                echo "<p ID='p1'>" . $line . "</p>";
+	    } else {
+		echo "<p ID='p2'>" . $line . "</p>";
+	    }
         } else {
             $sec += 1;
         }
