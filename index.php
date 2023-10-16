@@ -11,7 +11,7 @@
         <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     </head>
     <body>
-    <p id="p1">A nagy szabad Enciklopédija</p>
+    <b class="p1">A nagy szabad Enciklopédija</b>
     <?php
     $file = fopen("./wiki.txt", "r") or die("ERROR!");
     $sec = 2;
@@ -21,9 +21,9 @@
 
         if($line !== "\n") {
 	    if ($sec % 2 == 0) {
-                echo "<p ID='p1'>" . $line . "</p>";
+                echo "<p class='p2'>" . $line . "</p>";
 	    } else {
-		echo "<p ID='p2'>" . $line . "</p>";
+		echo "<p class='p1'>" . $line . "</p>";
 	    }
         } else {
             $sec += 1;
