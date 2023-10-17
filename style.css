@@ -17,6 +17,9 @@ body {
 .p1 {
     font-size: xx-large;
 }
+.p2 {
+    display: none;
+}
 .p1, .p2 {
     margin: 0;
     border: 1px solid black;
