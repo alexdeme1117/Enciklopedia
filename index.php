@@ -23,7 +23,7 @@
 	    if ($sec % 2 == 0) {
                 echo "<p class='p2'>" . $line . "</p>";
 	    } else {
-		echo "<p class='p1'>" . $line . "</p>";
+		echo "<p class='p1' ID='" . $sec . "' onclick='clicked(this.id)'>" . $line . "</p>";
 	    }
         } else {
             $sec += 1;
