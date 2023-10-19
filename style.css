@@ -19,10 +19,33 @@ body {
 }
 .p2 {
     display: none;
-}
+    font-size: 20px;
+} 
 .p1, .p2 {
     margin: 0;
     border: 1px solid black;
     border-right: none;
+    border-top: none;
     padding-left: 2%;
+}
+.box {
+    width: 30%;
+    border: 5px double black;
+    padding-left: 15px;
+}
+#logo {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#Gomb {
+    height: 35px;
+    background: white;
+    font-size: large;
+    margin-bottom: 5px;
+}
+#Gomb:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
 }
