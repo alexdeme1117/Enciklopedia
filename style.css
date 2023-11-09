@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body {
+    margin: auto;
+    height: fit-content;
+    width: 75%;
+    background-color: white;
+    opacity: 0.7;
+}
+.p1 {
+    font-size: xx-large;
+}
+.p2 {
+    display: none;
+    font-size: 20px;
+} 
+.p1, .p2 {
+    margin: 0;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+    padding-left: 2%;
+}
+.box {
+    height: 15%;
+    width: 30%;
+    border: 5px double black;
+    padding-left: 15px;
+}
+#logo {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#Gomb {
+    height: 35px;
+    background: white;
+    font-size: large;
+    margin-bottom: 5px;
+}
+#Gomb:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left: 15px;
+}
+table, td {
+    padding: 15px;
+}
+th {
+    background-color: black;
+    color: ghostwhite;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #54585d;
+}
+table, tbody, td {
+    color: #636363;
+    border: 1px solid #dddfe1;
+}
+table, tbody, tr {
+    background-color: #f9fafb;
+}
+table, tbody, tr:nth-child(odd) {
+    background-color: #ffffff;
+}
