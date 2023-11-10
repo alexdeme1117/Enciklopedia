@@ -29,7 +29,7 @@ body {
     padding-left: 2%;
 }
 .box {
-    height: 15%;
+    height: fit-content;
     width: 30%;
     border: 5px double black;
     padding-left: 15px;
