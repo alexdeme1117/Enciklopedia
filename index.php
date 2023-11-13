@@ -26,11 +26,13 @@
     </table>
     <br>
     <br>
-    <div class="box">
-      <img src="./64x64.png" ID="logo">
-      <h3>Csatlakozzon a szerkesztőkhöz!</h3>
-      <Button ID="Gomb" onclick="Play();"><a href="./editor.php" target="_blank" data-toggle="tooltip" title="<img src='./proud.png'/>">Csatlakozom</a></Button>
-    </div>
+    <center>
+      <div class="box">
+        <img src="./64x64.png" ID="logo">
+        <h3>Csatlakozzon a szerkesztőkhöz!</h3>
+        <Button ID="Gomb" onclick="Play();"><a href="./editor.php?search=Szovjet%20Enciklopedia" target="_blank" data-toggle="tooltip" title="<img src='./proud.png'/>">Csatlakozom</a></Button>
+      </div>
+    </center>
     <br><br>
     <b class="p1">A nagy szovjet Enciklopédija</b>
     <?php
