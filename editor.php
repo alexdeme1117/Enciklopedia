@@ -11,9 +11,19 @@
     fclose($file);
   }
   ?>
+  <p>hint: használj üres sort uj szekcióként!</p>
   <form method="post" action="">
-    <textarea name="text" style="font-size:large"></textarea>
-    <input type="submit" value="Szerkesztés"/>
+    <textarea name="text" style="background:#F1DBB3;height:500px;width:1000px;font-size:large"><?php
+    $f = fopen("wiki.txt", "r");
+    while(!feof($f)) {
+      $l = fgets($f);
+      echo $l;
+    }
+    fclose($f);
+    ?></textarea>
+    <br/>
+    <br/>
+    <input type="submit" value="Szerkesztés" style="font-size:large;height:35px"/>
   </form>
 </body>
 </html>
