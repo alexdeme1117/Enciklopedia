@@ -2,7 +2,7 @@
 <head>
   <title>A <?=$_GET["search"]?> szerkesztése</title>
 </head>
-<body>
+<body bgcolor="#333" text="ghostwhite">
   <?php
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $text = htmlspecialchars($_POST['text']);
@@ -13,7 +13,7 @@
   ?>
   <p>hint: használj üres sort uj szekcióként!</p>
   <form method="post" action="">
-    <textarea name="text" style="background:#F1DBB3;height:500px;width:1000px;font-size:large"><?php
+    <textarea name="text" style="color:ghostwhite;background:#262626;height:500px;width:1000px;font-size:large"><?php
     $f = fopen("wiki.txt", "r");
     while(!feof($f)) {
       $l = fgets($f);
