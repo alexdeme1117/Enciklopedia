@@ -13,6 +13,7 @@ body {
     width: 75%;
     background-color: white;
     opacity: 0.7;
+    border: 2px solid black;
 }
 .p1 {
     font-size: xx-large;
@@ -23,9 +24,7 @@ body {
 } 
 .p1, .p2 {
     margin: 0;
-    border: 1px solid black;
-    border-right: none;
-    border-top: none;
+    border-bottom: 1px solid black;
     padding-left: 2%;
 }
 .box {
